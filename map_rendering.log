@@ -1,0 +1,93 @@
+2025-06-15 01:56:19,352 - root - INFO - 🗺️ Received map render request
+2025-06-15 01:56:19,352 - map_api.renderer - INFO - Starting map rendering process
+2025-06-15 01:56:19,352 - map_api.renderer - WARNING - Failed to calculate center/zoom: 'tuple' object has no attribute 'lat'
+2025-06-15 01:56:19,359 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-15 01:58:50,298 - root - INFO - 🗺️ Received map render request
+2025-06-15 01:58:50,298 - map_api.renderer - INFO - Starting map rendering process
+2025-06-15 01:58:50,298 - root - INFO - Calculated center from 5 points: (47.734880, 3.329700)
+2025-06-15 01:58:50,306 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-15 21:57:43,395 - root - INFO - 🗺️ Received map render request
+2025-06-15 21:57:43,396 - map_api.renderer - INFO - Starting map rendering process
+2025-06-15 21:57:43,396 - root - INFO - Calculated center from 3 points: (35.453533, 138.386767)
+2025-06-15 21:57:43,403 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-15 23:31:48,971 - root - INFO - 🗺️ Received map render request
+2025-06-15 23:31:48,972 - map_api.renderer - INFO - Starting map rendering process
+2025-06-15 23:31:48,972 - root - INFO - Calculated center from 16 points: (46.908137, 3.307131)
+2025-06-15 23:31:48,976 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-15 23:31:50,024 - root - INFO - 🗺️ Received map render request
+2025-06-15 23:31:50,024 - map_api.renderer - INFO - Starting map rendering process
+2025-06-15 23:31:50,024 - root - INFO - Calculated center from 16 points: (46.908137, 3.307131)
+2025-06-15 23:31:50,028 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-15 23:31:52,075 - root - INFO - 🗺️ Received map render request
+2025-06-15 23:31:52,075 - map_api.renderer - INFO - Starting map rendering process
+2025-06-15 23:31:52,075 - root - INFO - Calculated center from 16 points: (46.908137, 3.307131)
+2025-06-15 23:31:52,081 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 00:01:46,839 - root - INFO - 🗺️ Received map render request
+2025-06-16 00:01:46,841 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 00:01:46,841 - root - INFO - Calculated center from 11 points: (47.901747, 3.070472)
+2025-06-16 00:01:46,851 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 00:01:47,896 - root - INFO - 🗺️ Received map render request
+2025-06-16 00:01:47,896 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 00:01:47,896 - root - INFO - Calculated center from 11 points: (47.901747, 3.070472)
+2025-06-16 00:01:47,900 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 00:01:49,946 - root - INFO - 🗺️ Received map render request
+2025-06-16 00:01:49,947 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 00:01:49,947 - root - INFO - Calculated center from 11 points: (47.901747, 3.070472)
+2025-06-16 00:01:49,951 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 00:18:41,884 - root - INFO - 🗺️ Received map render request
+2025-06-16 00:18:41,885 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 00:18:41,885 - root - INFO - Calculated center from 17 points: (45.751003, -3.141198)
+2025-06-16 00:18:41,889 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 00:54:55,724 - root - INFO - 🗺️ Received map render request
+2025-06-16 00:54:55,726 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 00:54:55,726 - root - INFO - Calculated center from 34 points: (49.125876, 17.278615)
+2025-06-16 00:54:55,734 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 01:41:54,894 - root - INFO - 🗺️ Received map render request
+2025-06-16 01:41:54,895 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 01:41:54,895 - root - INFO - Calculated center from 29 points: (45.126894, 10.146322)
+2025-06-16 01:41:54,899 - map_api.renderer - WARNING - Skipping transport segment kiev's main station, vdnh station, → lviv's main station. - invalid data
+2025-06-16 01:41:54,899 - map_api.renderer - WARNING - Skipping transport segment budapest's keleti station → vienna's hauptbahnhof. - invalid data
+2025-06-16 01:41:54,901 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 01:52:58,967 - root - INFO - 🗺️ Received map render request
+2025-06-16 01:52:58,968 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 01:52:58,968 - root - INFO - Calculated center from 22 points: (39.402413, 4.548945)
+2025-06-16 01:52:58,973 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 01:55:50,430 - root - INFO - 🗺️ Received map render request
+2025-06-16 01:55:50,431 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 01:55:50,431 - root - INFO - Calculated center from 11 points: (36.900229, 5.272155)
+2025-06-16 01:55:50,435 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 01:58:59,019 - root - INFO - 🗺️ Received map render request
+2025-06-16 01:58:59,020 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 01:58:59,020 - root - INFO - Calculated center from 23 points: (44.233591, 2.108314)
+2025-06-16 01:58:59,023 - map_api.renderer - WARNING - Skipping transport segment skopje → belgrade (approximately 3.5 hours):
+	+ arrive in belgrade and spend a day or two exploring this vibrant city:
+		- visit the iconic kalemegdan fortress, offering stunning views of the danube river. - invalid data
+2025-06-16 01:58:59,023 - map_api.renderer - WARNING - Skipping transport segment athens → thessaloniki (approximately 5 hours) - invalid data
+2025-06-16 01:58:59,023 - map_api.renderer - WARNING - Skipping transport segment thessaloniki → skopje (approximately 4.5 hours)
+* bus - invalid data
+2025-06-16 01:58:59,023 - map_api.renderer - WARNING - Skipping transport segment belgrade → budva (approximately 6 hours)
+
+tips and recommendations: - invalid data
+2025-06-16 01:58:59,023 - map_api.renderer - WARNING - Skipping transport segment athens → budva (approximately €100-€150) instead of booking separate tickets. - invalid data
+2025-06-16 01:58:59,025 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-16 02:47:32,033 - root - INFO - 🗺️ Received map render request
+2025-06-16 02:47:32,034 - map_api.renderer - INFO - Starting map rendering process
+2025-06-16 02:47:32,034 - root - INFO - Calculated center from 28 points: (40.495955, 30.411392)
+2025-06-16 02:47:32,041 - map_api.renderer - WARNING - Skipping transport segment athens and head north → skopje, the capital city of north macedonia. - invalid data
+2025-06-16 02:47:32,041 - map_api.renderer - WARNING - Skipping transport segment skopje → belgrade, the capital city of serbia. - invalid data
+2025-06-16 02:47:32,041 - map_api.renderer - WARNING - Skipping transport segment belgrade → podgorica, the capital city of montenegro. - invalid data
+2025-06-16 02:47:32,041 - map_api.renderer - WARNING - Skipping transport segment athens or skopje → drive through the scenic routes. - invalid data
+2025-06-16 02:47:32,043 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-17 14:00:39,911 - root - INFO - 🗺️ Received map render request
+2025-06-17 14:00:39,912 - map_api.renderer - INFO - Starting map rendering process
+2025-06-17 14:00:39,912 - root - INFO - Calculated center from 30 points: (44.093709, 4.052199)
+2025-06-17 14:00:39,915 - map_api.renderer - WARNING - Skipping transport segment paris → nice by train. - invalid data
+2025-06-17 14:00:39,916 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-17 14:13:16,008 - root - INFO - 🗺️ Received map render request
+2025-06-17 14:13:16,009 - map_api.renderer - INFO - Starting map rendering process
+2025-06-17 14:13:16,009 - root - INFO - Calculated center from 11 points: (47.055445, 5.348893)
+2025-06-17 14:13:16,015 - map_api.renderer - INFO - Map rendering completed successfully
+2025-06-17 14:22:24,168 - root - INFO - 🗺️ Received map render request
+2025-06-17 14:22:24,169 - map_api.renderer - INFO - Starting map rendering process
+2025-06-17 14:22:24,169 - root - INFO - Calculated center from 17 points: (45.799776, 8.587048)
+2025-06-17 14:22:24,175 - map_api.renderer - INFO - Map rendering completed successfully
