@@ -139,7 +139,7 @@
   }
   .container {
     background: #fff;
-    max-width: 600px;
+    max-width: 1200px;
     margin: 40px auto 0 auto;
     border-radius: 18px;
     box-shadow: 0 8px 32px rgba(0,0,0,0.08);
