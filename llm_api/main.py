@@ -4,8 +4,12 @@ from llm_api.ollama_client import query_ollama
 from llm_api.utils import sanitize_input, validate_text_response
 import time
 import logging
+import os # Import the os module
 
 logger = logging.getLogger(__name__)
+
+# Fetch LLM model name from environment variable, with a default
+LLM_MODEL_NAME = os.getenv("LLM_MODEL_NAME_ENV", "llama3")
 
 app = FastAPI(title="LLM Text Generation API", version="1.0")
 
@@ -32,5 +36,5 @@ async def generate_travel_text(request: TravelIdeaRequest) -> GeneratedTravelPla
         raw_text=validated_text,
         user_input=request.idea,
         generation_time_ms=int((time.time() - start_time) * 1000),
-        model="llama3"
+        model=LLM_MODEL_NAME
     )

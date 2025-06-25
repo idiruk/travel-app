@@ -1,11 +1,15 @@
 import asyncio
 import httpx
 import logging
+import os  # Import the os module
 from typing import List, Optional
 from geo_api.models import GeoEntity, GeoRequest, GeoResponse, GeoTransportSegment
 
-NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
-HEADERS = {"User-Agent": "travel-app/1.0"}
+# Fetch Nominatim URL from environment variable, with a default
+NOMINATIM_URL = os.getenv("NOMINATIM_URL_ENV", "https://nominatim.openstreetmap.org/search")
+# Fetch User-Agent from environment variable, with a default
+NOMINATIM_USER_AGENT = os.getenv("NOMINATIM_USER_AGENT_ENV", "travel-app/1.0")
+HEADERS = {"User-Agent": NOMINATIM_USER_AGENT}
 DELAY_BETWEEN_REQUESTS = 1  # seconds
 MAX_RETRIES = 3
 

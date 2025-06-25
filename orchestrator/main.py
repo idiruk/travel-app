@@ -51,10 +51,14 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class ServiceURLs(str, Enum):
-    LLM_API = "http://localhost:8000/generate"
-    PARSER_API = "http://localhost:8001/parse"
-    GEO_API = "http://localhost:8002/geocode"
-    MAP_API = "http://localhost:8003/render"
+    # Environment variable: LLM_API_URL
+    LLM_API = os.getenv("LLM_API_URL", "http://localhost:8000/generate")
+    # Environment variable: PARSER_API_URL
+    PARSER_API = os.getenv("PARSER_API_URL", "http://localhost:8001/parse")
+    # Environment variable: GEO_API_URL
+    GEO_API = os.getenv("GEO_API_URL", "http://localhost:8002/geocode")
+    # Environment variable: MAP_API_URL
+    MAP_API = os.getenv("MAP_API_URL", "http://localhost:8003/render")
 
 class NotificationType(str, Enum):
     INFO = "info"
@@ -185,10 +189,11 @@ async def call_service(
         type=NotificationType.ERROR,
         message=f"Failed to call {service_url} after {retries} attempts",
         timestamp=datetime.now(timezone.utc).isoformat(),
-        details={"error": last_error}
+        details={"error": last_error} # last_error already contains specific details
     )
     await send_notification(request_id, error_notification, callback_url)
-    raise HTTPException(status_code=503, detail=f"Service {service_url} unavailable")
+    # Use the detailed last_error message for the HTTPException
+    raise HTTPException(status_code=503, detail=last_error)
 
 async def process_travel_request(
         request_id: str,
